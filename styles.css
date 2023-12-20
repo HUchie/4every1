@@ -1,0 +1,57 @@
+
+* {
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'verdana';
+}
+
+/* Style the header */
+header {
+    background-color: #565bba;
+    padding: 25px;
+    text-align: center;
+    font-size: 30px;
+    color: AliceBlue;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+    float: left;
+    width: 15%;
+    background: #000080;
+    padding: 20px;
+    height: 301px;
+	color: AliceBlue;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    float: left;
+    padding: 34px;
+    width: 85%;
+    background-color: aliceblue;
+    height: 200x;
+}
+
+/* Clear floats after the columns */
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: AliceBlue;
+}
